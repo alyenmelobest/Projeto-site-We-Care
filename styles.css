@@ -15,6 +15,12 @@ header {
     cursor: pointer;
     margin-right: 23px;
 }
+a:hover {
+    opacity: .4;
+}
+a:active {
+    opacity: .6;
+}
 .login-button {
     width: 130px;
     height: 41px;
@@ -72,7 +78,82 @@ p {
     cursor: pointer;
     border: none;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
 }
+button:hover {
+    opacity: .6;
+}
+button:active {
+    opacity: .4;
+}
+
+@media screen and (max-width:740px) {
+    header {
+        display: none;
+    }
+    .logo-we-care {
+        margin: 0;
+        width: 100vw;
+        height: 50%;
+        margin-top: 31%;
+        
+    }
+    section {
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        width: 100vw;
+        margin-top: 5%;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+    }
+    button {
+        margin: 3% auto;
+        display: block;
+
+    }
+    p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:920px) {
+    header {
+        width: 100vw;
+
+    }
+    
+    section {
+        margin: 0;
+        align-items: center;
+        width: 100vw;
+        height: 50%;
+        display: block;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        margin: 1% auto;
+        text-align: justify;
+    }
+    .explore-button {
+        margin: 2% auto;
+        display: block;
+    }
+}
+
+
+
 
 
